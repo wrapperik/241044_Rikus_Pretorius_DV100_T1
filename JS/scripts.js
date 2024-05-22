@@ -2,6 +2,7 @@ const minusOne = document.querySelector('.minus');
 const plusOne = document.querySelector('.plus');
 const ticketNumber = document.querySelector('.number');
 
+
 console.log(minusOne);
 console.log(plusOne);
 
@@ -17,12 +18,4 @@ minusOne.addEventListener('click', function() {
   }) ;
 
   //im not sure how to make it do the math and display it in the .number class yet but im working on it
-
-  //this message should only pop-up when all fields have been completed and the form has actually been pushed. 
-
-  function success(){
-    alert("Form Submitted! We'll get back to you shortly!");
-}
-
-
 
